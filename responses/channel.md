@@ -79,6 +79,7 @@
 }
 ```
 ### id
+```json
 {
   "kind": "youtube#channelListResponse",
   "etag": "5_SWA1IU6NoR3Ex_Ucc5W1jIp9c",
@@ -94,7 +95,7 @@
     }
   ]
 }
-
+```
 ### localizations
 ```json
 {
