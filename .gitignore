@@ -1,0 +1,9 @@
+/.credentials.json
+/.env
+/.mypy_cache
+/.token.json
+/.vscode
+/test.ipynb
+/youtube_summarize.ipynb
+/_trash
+/__pycache__
