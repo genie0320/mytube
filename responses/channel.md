@@ -161,6 +161,7 @@
 ```
 
 ### statistics
+```json
 {
   "kind": "youtube#channelListResponse",
   "etag": "ZhKoYU9GQ5sq3gaFwQbwzp2V6Mw",
