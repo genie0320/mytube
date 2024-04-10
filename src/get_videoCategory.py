@@ -22,6 +22,13 @@ response = request.execute()
 print("List of Video Categories (ID : Title):")
 for item in response["items"]:
     print(f"- {item['id']} : {item['snippet']['title']}")
+    
+# Make list and return
+def get_videoCategory():
+    vid_cayegory = {}
+    for item in response["items"]:
+        vid_cayegory[item['id']] = item['snippet']['title']
+    return vid_cayegory
 
 ### Result
 # List of Video Categories (ID : Title):
